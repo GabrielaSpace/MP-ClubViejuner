@@ -1,0 +1,33 @@
+body{
+    background-image:url(https://cdn.whatthegirl.com/sdi/2019/07/23/viral-abuela-de-89-anos-invirtio-el-dinero-de-su-pension-en-recuerdos-de-los-viajes-que-hace-876716.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+main{
+    display: block;
+    width: 600px;
+    background-color: beige;
+    margin: 40px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: 0.85;
+    
+
+}
+
+
+h1{
+    color: #816A5A;
+    font-size: 25px;
+   
+}
+h2{
+    color: #A48769;
+}
+

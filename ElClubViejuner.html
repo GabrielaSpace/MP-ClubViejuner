@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="viejuner.css">
+    <title>Abuelitos</title>
+</head>
+<body>
+    <main>
+    <h1>El club viejuner</h1>
+   
+    <form action="#" method="post">
+      
+            <h2>Datos personales</h2>
+            
+            <label for="fname">Nombre:</label>
+            <input type ="text" id="fname" name="fname" placeholder="Escriba su nombre" autofocus autocomplete><br>
+            
+            
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname" placeholder="Escriba su apellido" autofocus autocomplete><br>
+            
+
+            <label for="age">Edad:</label>
+            <input type ="number" id="age" name="age" placeholder="Escriba su Edad" min="50" required><br>
+ 
+        <h2>Indique su género</h2>
+            <input type="radio" id="mujer" name="mujer" value="mujer"> 
+            <label for="mujer">Mujer</label><br>
+
+            <input type="radio" id="hombre" name="hombre" value="hombre">
+            <label for="hombre">Hombre</label><br>
+                
+            <input type="radio" id="noaplica" name="no aplica" value="noaplica">
+            <label for="mujer">N/A</label><br>
+        </fieldset>
+        <h2>¿Cómo se siente?</h2>
+            
+            <input id="jovial" name="feel"type="checkbox" checked="checked"/>
+            <label for="jovial">Jovial</label><br>
+            
+            <input id="acabado" type="checkbox" />
+            <label for="acabado">Acabado</label><br>
+
+            <input id="nolose" type="checkbox" />
+            <label for="nolose">No lo sé</label><br>    
+
+                <h2>¿Cómo se describiría?</h2>
+            <textarea name="descripcion" >Soy ...</textarea>
+            
+        <h2>Datos de contacto</h2>
+            <label for="email">E-mail:
+            <input name="email" type="email" placeholder="Escriba su correo electrónico" autocomplete>
+            </label><br><br>
+
+
+            <label for="movil">Teléfono:</label>
+            <input name="movil" type="tel" placeholder="Escriba su móvil" autocomplete><br><br>
+         
+
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpiar">
+
+
+    </form>
+</main>
+</body>
+</html>
